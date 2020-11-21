@@ -1,0 +1,41 @@
+.about_page{
+    overflow: scroll;
+}
+.about_text{
+    height: 100vh;
+    width: 100vw;
+    padding:50px;
+    background-color: black;
+    color: white;
+}
+.about_backIcon{
+    transform: rotateY(180deg);
+    padding-bottom:30px;
+}
+.about_backIcon:hover{
+    transform:scale(1.5) rotateY(180deg);
+}
+.about_text > h2{
+    padding-left: 20px;
+    padding-right: 30px;
+    letter-spacing: 3px;
+    font-size: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.about_introDiv{
+    width: 100vw;
+    background-color: lightskyblue;
+}
+.about_intro{
+    height: 50vh;
+    width: 70vw;
+    background-color: white;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:50px;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+.about_intro:hover{
+    background-color: lightskyblue;
+}

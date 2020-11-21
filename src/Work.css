@@ -1,0 +1,83 @@
+.work{
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+
+}
+.work_header{
+    width: 100%;
+    height: 60vh;
+    background-image: url('./images/recentWork.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.work_headerLeft{
+    width: 35vw;
+    height: 70vh;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    text-align: center;
+    transition: all .1s ease-out;
+}
+.work_header:hover .work_headerLeft{
+    visibility: visible;
+    transition: all .1s ease-in;
+}
+.work_headerText{
+    padding-top: 40%;
+}
+.work_headerText > h1{
+    margin-bottom: 50px;
+}
+.work_headerText > p{
+    margin: 0 30px;
+}
+.work_projectName{
+    width: 100%;
+    height: 15vh;
+    background-color: wheat;
+}
+.work_tagline{
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    font-weight: 500;
+}
+.project_details{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(min(25rem, 100%), 1fr));
+    place-items: center;
+    margin: 50px;
+}
+.project_card{
+    border: 0 solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+    margin-bottom: 30px;
+    background-color: lightgrey;
+}
+.project_card:hover{
+    transform: scale(1.07);
+}
+.project_card > img{
+    border-radius: 10px;
+    height: 300px;
+    object-fit: fill;
+}
+.project_cardInfo{
+    margin: 20px 0;
+    text-align: center;
+    height: 50px;
+    overflow: scroll;
+}
+.project_cardInfo > p{
+    font-size: 20px;
+    padding: 0 20px;
+    text-align: left;
+    padding-top: 10px;
+}
