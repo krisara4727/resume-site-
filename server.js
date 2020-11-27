@@ -26,13 +26,13 @@ app.post('/api/emailSent', (req,res) => {
         secure:true,
         port:465,
         auth:{
-            user:'kisturaj130@gmail.com',
-            pass:'krEsHNA@6357'
+            user:'user@gmail.com',
+            pass:'password'
         }
     });
 let mailOptions = {
     from: data.email,
-    to:'kisturaj130@gmail.com',
+    to:'user@gmail.com',
     subject:`message from ${data.fullName}`,
     html:`
         <h3>Informations</h3>
