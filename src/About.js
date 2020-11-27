@@ -8,7 +8,7 @@ function About() {
         <div className='about_page'>
             <div className='about_text'>
                 <Link to = '/' >
-                    <CallMadeIcon fontSize="inherit" style={{fontSize:150}} className='about_backIcon' />
+                    <CallMadeIcon fontSize="inherit" style={{fontSize:100}} className='about_backIcon' />
                 </Link>
                 
                 <h2>Hi, this is chivte krishna software developer engineer focused on UI and developing apps.</h2>

@@ -1,0 +1,56 @@
+.social_emailForm label{
+    display: block;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-size: 1.5vw;
+}
+.social_emailForm{
+    padding: 20px;
+}
+.social_emailContainer{
+    width: 50vw;
+    height:90vh;
+    background-color: white;
+    box-shadow: 0 8px 16px -9px green;
+}
+.social_emailForm input, textarea{
+    border: none;
+    outline-width: 0;
+    width: 90%;
+    padding: 10px;
+    background-color: lightpink;
+    border-radius: 10px;
+}
+.social_emailForm input:hover, .btn button:hover, textarea:hover{
+    box-shadow: 1px 8px 12px 6px rgba(98,98,98,0.75);
+    color: black;
+}
+.form_items{
+    margin-bottom: 20px;
+}
+.btn button{
+    width: 20vw;
+    padding:1vw;
+    background-color: lightblue;
+    font-size: 3vw;
+    border-radius: 10px;
+    border: none;
+    outline-width: 0;
+    color: white;
+}
+.btn{
+    text-align: center;    
+}
+.email_message{
+    color: green;
+    display: none;
+}
+.email_message_appear{
+    display: all;
+    color: green;
+    font-weight: bold;
+}
+.form_fields_error{
+    color: red;
+}

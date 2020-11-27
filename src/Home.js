@@ -6,7 +6,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import {IconButton}  from '@material-ui/core';
 import recent from './images/recentWork.jpeg';
-import contactImage from './images/get-in-touch.png';
+import contactImage from './images/certification2.jpg';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import {Link } from 'react-router-dom';
 
@@ -86,8 +86,14 @@ const getAngel = (x) => {
   return (
     <div className="app" ref={docRef} onMouseMove={momentMouse} >
       <div className='container'>
-        <div className='contact'><ArrowForwardIcon 
-              style={{fontSize:40}} /> Contact</div>
+          <Link to='/certifications' style={{ textDecoration: 'none' }}>
+            <div className='contact'>
+              <ArrowForwardIcon 
+              style={{fontSize:40}} /> 
+              Certifications 
+            </div>
+          </Link>
+        
         <div className='flex'>
             <div className='about_container'>
                 <Link to='/about' style={{ textDecoration: 'none' }}>
@@ -133,10 +139,18 @@ const getAngel = (x) => {
             <p>Developed and designed by krishna.</p>
           </div>
         ) }>
-            <IconButton value='EmailIcon' ><EmailIcon className='icon' style={{fontSize:40}} /></IconButton>
-            <IconButton value='InstagramIcon' ><InstagramIcon className='icon' style={{fontSize:40}} /></IconButton>
-            <IconButton value='LinkedInIcon'><LinkedInIcon className='icon' style={{fontSize:40}} /></IconButton>
-            <IconButton value='TwitterIcon'><TwitterIcon className='icon' style={{fontSize:40}} /></IconButton>
+            <Link to='/email'>
+                <IconButton value='EmailIcon' ><EmailIcon className='icon' fontSize="large" /></IconButton>
+            </Link> 
+            <Link to='/insta'>
+                <IconButton value='InstagramIcon' ><InstagramIcon className='icon' fontSize="large" /></IconButton>
+            </Link>
+            <Link to='/linkedIn'>
+                <IconButton value='LinkedInIcon'><LinkedInIcon className='icon' fontSize="large" /></IconButton>
+            </Link>
+            <Link to='/twitter'>
+                <IconButton value='TwitterIcon'><TwitterIcon className='icon' fontSize="large" /></IconButton>
+            </Link>
         </div>
       
 {/*

@@ -1,0 +1,131 @@
+.certification{
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+    text-align: center;
+    background-color: cornsilk;
+}
+.certification > h1{
+    font-size: xx-large;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.certificate_page{
+    display: flex;
+    margin: 8vw;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.certificate_page > img{
+    width: 50vw;
+    height: 50vh;
+    object-fit: fill;
+}
+.certificate_page > img:hover{
+    transform: scale(1.1);
+}
+.certificate_info{
+    padding:30px;
+    letter-spacing: 1.2;
+    font-size: 2vw;
+    display: grid;
+    place-items: center;
+}
+
+.perspective-text {
+    color: white;
+    font-family: Arial;
+    font-size: 2vw;
+    font-weight: 900;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+  }
+  
+  .perspective-line {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .perspective-line > p {
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .perspective-line:nth-child(odd) {
+    transform: skew(60deg, -30deg) scaleY(0.667);
+  }
+  
+  .perspective-line:nth-child(even) {
+    transform: skew(0deg, -30deg) scaleY(1.337);
+  }
+  
+  .perspective-text:hover p {
+    transform: translate(0, -50px);
+  }
+  
+  .perspective-line:nth-child(1) {
+    left: 29px;
+    background: black;
+  }
+  
+  .perspective-line:nth-child(2) {
+    left: 58px;
+    background: #f07e6e;
+  }
+  
+  .perspective-line:nth-child(3) {
+    left: 87px;
+    background: #84cdfa;
+  }
+  
+  .perspective-line:nth-child(4) {
+    left: 116px;
+    background: #5ad1cd;
+  }
+  
+  .perspective-line:nth-child(5) {
+    left: 145px;
+  }
+  .certification_name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: cornsilk;
+        overflow: hidden;
+        padding-top: 40px;
+        padding-bottom: 10px;
+  }
+  .certificate_info > h3{
+      padding-bottom: 10px;
+  }
+  .lets_talk{
+      text-align: left;
+      background-color: blue;
+      color:white;
+      position: relative;
+      display: flex;
+      padding: 50px;
+  }
+  .lets_talk > p{
+      font-size: 7vw;
+      margin-left: 5vw;
+      font-weight: 900;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      flex: 1;
+  }
+  .lets_talk_backIcon {
+    transform: rotateX(180deg);
+    margin-top: 18vh;
+  }
+  .lets_talk:hover .lets_talk_backIcon{
+      color: black;
+      cursor: pointer;
+  }
+  .lets_talk:hover{
+      color: #000;
+  }

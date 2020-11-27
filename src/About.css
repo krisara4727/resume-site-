@@ -2,7 +2,7 @@
     overflow: scroll;
 }
 .about_text{
-    height: 100vh;
+    height: fit-content;
     width: 100vw;
     padding:50px;
     background-color: black;
@@ -18,8 +18,9 @@
 .about_text > h2{
     padding-left: 20px;
     padding-right: 30px;
+    padding-bottom: 30px;
     letter-spacing: 3px;
-    font-size: 90px;
+    font-size: 7vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .about_introDiv{
@@ -27,10 +28,10 @@
     background-color: lightskyblue;
 }
 .about_intro{
-    height: 50vh;
+    height: auto;
     width: 70vw;
     background-color: white;
-    font-size: 40px;
+    font-size: 3vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding:50px;
     letter-spacing: 2px;
